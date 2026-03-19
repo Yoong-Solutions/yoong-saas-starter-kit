@@ -1,0 +1,14 @@
+{
+  "name": "@yoong-solutions/automation-framework-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test tests/smoke",
+    "test:regression": "playwright test tests/regression"
+  },
+    "devDependencies": {
+    "@playwright/test": "^1.43.0"
+  }
+}
